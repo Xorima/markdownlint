@@ -12,7 +12,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
     - name: Lint Markdown
-      uses: actionshub/markdownlint@1.2.2
+      uses: actionshub/markdownlint@invert-match
       with:
         filesToIgnoreRegex: '((test|example|bin)\/.*|doc\/RULES.md)'
   ruby:
